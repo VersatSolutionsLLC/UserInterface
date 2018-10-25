@@ -1,0 +1,96 @@
+.gapping-top {
+    padding-top: 53px;
+}
+
+.login-form {
+    width: 350px;
+    height: auto;
+    top: 23%;
+    margin-top: -160px;
+}
+
+.teoco-dashboard{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+/* For legends on map*/
+.legends {
+    position: absolute;
+    bottom: 294px;
+    right: 29px;
+    z-index: 1010;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    padding: 2px 5px 5px 5px;
+    display: none;
+    font-size: small;
+    max-height: 40vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.legends .color {
+    height: 18px;
+    width: 21px;
+    margin: 2px 8px 2px 2px;
+}
+
+.legends .text {
+    font-size: small;
+}
+
+.legends .text div {
+    margin: 2px;
+}
+
+.legends .frame .heading {
+    width: 307px;
+}
+
+.legends .frame .content {
+    padding: 5px 0;
+}
+
+.legends table {
+    margin: 0;
+}
+
+.legends .input-control {
+    min-height: 1.125rem !important;
+    height: 1.125rem !important;
+}
+
+.legends .input-control.checkbox {
+    line-height: 0.875rem;
+}
+
+.legends .frame[data-kpi='Cluster'] .table tbody td,
+.legends .frame[data-kpi='Events'] .table tbody td {
+    padding: 0.625rem 0 !important;
+}
+
+.legends .frame[data-kpi] .table tbody td {
+    padding: 0 5px !important;
+}
+
+.legends .frame[data-kpi='Cluster'] .table tbody td:first-child {
+    width: 10px;
+}
+
+.legends .frame[data-kpi='Cluster'] .table tbody td {
+    padding: 0.2rem 11px !important;
+}
+
+table.legend-table {
+    border-spacing: 0;
+    border-collapse: separate;
+    padding: 0;
+}
+
+table.legend-table td {
+    padding: 5px;
+    font-size: 12px;
+    text-align: left;
+}
